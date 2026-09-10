@@ -1,8 +1,7 @@
 name: MIDI-Latency Sim
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch: 
 
 jobs:
   latency:
