@@ -2,8 +2,8 @@ name: iOS Forensic Analysis
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
+  # push:
+  #   branches: [ main ]
 
 jobs:
   analyze-ios-project:
